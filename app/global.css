@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;600&family=Heebo:wght@300&display=swap');
+
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+/* GENERAL Styles */
+
+html {
+  min-height: 100vh;
+  font-size: 90%;
+  font-family: 'Heebo', sans-serif;
+  
+}
+
+
+body {
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
