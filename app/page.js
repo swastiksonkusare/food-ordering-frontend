@@ -1,8 +1,10 @@
+import Featured from "@/components/Featured";
+
 const Home = () => {
   return (
-    <section>
-      <h1>Homepage</h1>
-    </section>
+    <>
+      <Featured />
+    </>
   );
 };
 
