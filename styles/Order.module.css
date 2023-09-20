@@ -81,9 +81,15 @@
     cursor: not-allowed;
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 65em) {
     .container {
       flex-direction: column;
+      padding: 1rem;
+
+    }
+
+    .wrapper {
+        margin: 0 auto;
     }
   
     .trTitle {
@@ -128,7 +134,5 @@
       margin-bottom: 20px;
     }
   
-    .wrapper{
-      width: 100%;
-    }
+   
   }

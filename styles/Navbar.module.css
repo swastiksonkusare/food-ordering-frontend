@@ -1,4 +1,5 @@
 .container {
+
     padding: 1rem 2rem;
     background-color: #d1411e;
     display: flex;
@@ -54,6 +55,7 @@
   .list {
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     list-style: none;
     color: white;
@@ -104,14 +106,15 @@
 }
 @media only screen and (max-width: 65em) {
     .list {
-        flex-direction: column;
+    margin-bottom: 2rem;
+
     }
 }
 
   @media screen and (max-width:40em) {
 
     .container {
-        gap: 1ren;
+        gap: 1rem;
     }
 
     .item:nth-child(2) {
