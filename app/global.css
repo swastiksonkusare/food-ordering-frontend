@@ -17,8 +17,15 @@ html {
   min-height: 100vh;
   font-size: 90%;
   font-family: 'Heebo', sans-serif;
-  
+
+
+    
+  @media only screen and (max-width: 30em) {
+    font-size: 50%;
+  }
 }
+
+
 
 
 body {
